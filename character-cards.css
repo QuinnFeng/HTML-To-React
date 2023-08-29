@@ -1,0 +1,48 @@
+#character-cards {
+  width: 90%;
+  min-height: 33vh;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  min-height: 250px;
+  width: 200px;
+  margin-top: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.card h4 {
+  font-size: 20px;
+  color: white;
+}
+
+.card-titles {
+  background-color: #00000033;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  word-wrap: break-word;
+  width: 200px;
+}
